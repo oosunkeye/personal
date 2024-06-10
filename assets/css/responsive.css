@@ -1,0 +1,233 @@
+/*
+    * Gulshan Portfolio Website
+    * Designed & Coded by : 'Gulshan Songara'
+*/
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .container {
+    max-width: 1160px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 980px;
+  }
+
+  .hero-content {
+    margin-right: 8%;
+  }
+
+  .orbit {
+    width: 360px;
+    height: 360px;
+  }
+
+  .deg-0 {
+    transform: rotate(0deg) translate(180px);
+  }
+
+  .deg-45 {
+    transform: rotate(45deg) translate(180px) rotate(-45deg);
+  }
+
+  .deg-90 {
+    transform: rotate(90deg) translate(180px) rotate(-90deg);
+  }
+
+  .deg-135 {
+    transform: rotate(135deg) translate(180px) rotate(-135deg);
+  }
+
+  .deg-180 {
+    transform: rotate(180deg) translate(180px) rotate(-180deg);
+  }
+
+  .deg-225 {
+    transform: rotate(225deg) translate(180px) rotate(-225deg);
+  }
+
+  .deg-270 {
+    transform: rotate(270deg) translate(180px) rotate(-270deg);
+  }
+
+  .deg-315 {
+    transform: rotate(315deg) translate(180px) rotate(-315deg);
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+  }
+
+  .about-txt,
+  .about-skills,
+  .swiper,
+  .contact-txt,
+  .contact-form,
+  .copyright-mob {
+    width: 100%;
+  }
+
+  #scroll-spy,
+  #social-bar {
+    display: none;
+  }
+
+  .about-wrapper {
+    gap: 5rem;
+  }
+
+  .orbit {
+    width: 100%;
+    height: 18rem;
+    overflow: hidden;
+    border-radius: unset;
+  }
+
+  .orbit > .gradient-text {
+    top: 0;
+    left: 0;
+    transform: unset;
+  }
+
+  .orbit-wrapper {
+    top: 6rem;
+    height: auto;
+    border-radius: unset;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 8vw;
+  }
+
+  .orbit-item {
+    position: unset;
+    transform: unset;
+    margin: unset;
+  }
+
+  .orbit-item > svg {
+    position: unset;
+  }
+
+  .orbit-wrapper,
+  .orbit-item > svg {
+    transform: unset;
+    animation: none;
+  }
+
+  .portfolio-wrapper {
+    gap: 4rem;
+  }
+
+  .img-swiper {
+    box-shadow: 8px 12px 24px -6px rgba(0, 0, 0, 0.9);
+  }
+
+  .img-swiper .swiper-slide {
+    padding: 0;
+  }
+
+  .slide-img {
+    box-shadow: unset;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+
+  .contact-wrapper {
+    gap: 6rem;
+  }
+
+  .mailto {
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .copyright-mob {
+    display: block;
+  }
+
+  .back-to-top {
+    left: auto;
+    right: 1.2vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+
+  .hero-content {
+    margin-right: 0;
+  }
+
+  .orbit-item {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: 14px;
+  }
+
+  .section {
+    padding-bottom: 3rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .wrapper {
+    margin-top: 4rem;
+  }
+
+  .hero-content > .gradient-text,
+  .heading > .gradient-text {
+    font-size: 16vw;
+  }
+
+  .heading > h2 {
+    width: 100%;
+    font-size: 5vw;
+  }
+
+  .hero-greet > span {
+    width: 12vw;
+    height: 2px;
+  }
+
+  .hero-greet > h4 {
+    font-size: 4vw;
+  }
+
+  .hero-name {
+    font-size: 7vw;
+  }
+}
